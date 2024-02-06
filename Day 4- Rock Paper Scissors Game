@@ -1,0 +1,26 @@
+import random
+import my_module
+
+#Producing Random numbers
+random_integer =random.randint(1,10)
+print(random_integer)
+
+#importing from other module
+print(my_module.pi)
+random_float = random.random()
+print(random_float)
+
+# random_float * 5
+# 0.0000... - 4.99999...
+
+#Testing love score by random function
+love_score = random.randint(1, 100)
+print(f"Your Love Score is {love_score}")
+
+#Head or Tail from random
+import random
+random_output = random.randint(0,1)
+if random_output =="0":
+  print("You got Tails")
+else:
+  print("You got Heads")
