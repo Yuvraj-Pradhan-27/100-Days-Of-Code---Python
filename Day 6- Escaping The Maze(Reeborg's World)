@@ -8,6 +8,18 @@ def my_function():
 
 my_function()
 
+# This is basically a code for a Software called Reeborg's World
+
+#The Hurdle Problem
+def hurdle():                #Repeat this 6 times
+    turn_left()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+
+
+
 
 
 
