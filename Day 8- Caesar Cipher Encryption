@@ -28,3 +28,17 @@ def greet_with(name, location):
   print(f"What is it like in {location}?")
 
 greet_with(location="Pune", name="Uv")
+
+# Number of cans calculator
+def paint_calc(height, width, cover):
+    can_calculator = (height * width) / cover
+    print(f"The number of cans required: {can_calculator}")
+
+# Taking user input for height, width, and cover
+height = int(input("Enter the height: "))
+width = int(input("Enter the width: "))
+cover = int(input("Enter the cover per can: "))
+
+# Calling the function with user input
+paint_calc(height, width, cover)
+
